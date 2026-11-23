@@ -54,4 +54,4 @@ On Windows with MinGW, use `g++ -std=c++11 -o vending.exe vending.cpp` and then 
 
 ## Author
 
-Semya
+Semya, with the help of Viro AI in brainstorming and formatting!
