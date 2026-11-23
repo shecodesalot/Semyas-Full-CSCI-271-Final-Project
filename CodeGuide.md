@@ -65,6 +65,8 @@ g++ -std=c++11 -o vending vending.cpp
 
 On Windows with MinGW, use `g++ -std=c++11 -o vending.exe vending.cpp` and then run `vending.exe`.
 
+If using OnlineGDB: paste the whole .cpp program into the editor, make sure the language is set to C++, then click Run. The PIN is 4821, and you'll see the card-only notice when the program starts.
+
 ## How to Use
 
 1. Choose `1` from the main menu to buy an item.
