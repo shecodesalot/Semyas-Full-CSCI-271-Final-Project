@@ -83,8 +83,8 @@ If using OnlineGDB: paste the whole .cpp program into the editor, make sure the 
 - `printMachine()`: draws the machine, its stock, and the card-only notice.
 - `readInt()`: reads a whole number and rejects bad input.
 - `checkCardPin()`: shows the attempts remaining and checks the PIN.
-- `buyItem()`: runs the purchase. It uses an `Item&` reference so stock changes update the vector.
-- `main()`: holds the product list and the menu loop.
+- `buyItem()`: handles a purchase, checking stock and card balance before updating the stock and balance.
+- `main()`: creates the product list, initializes the card balance to `$30.00`, and runs the menu loop.
 
 ## Author
 
